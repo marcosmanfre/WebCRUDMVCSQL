@@ -12,6 +12,6 @@ namespace WebCRUDMVCSQL.Models
 
         [Column("Nome")]
         [Display(Name = "Nome")]
-        public string Nome { get; set; }
+        public string? Nome { get; set; }
     }
 }
